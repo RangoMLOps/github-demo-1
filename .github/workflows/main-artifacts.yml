@@ -51,4 +51,4 @@ jobs:
       - name: output contents
         run: ls
       - name: deploy
-        run: echo "Deploying ...
+        run: echo "Deploying ..."
