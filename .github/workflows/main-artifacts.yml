@@ -40,7 +40,7 @@ jobs:
           path: |
             dist
             package.json
-   deploy:
+  deploy:
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -51,4 +51,4 @@ jobs:
       - name: output contents
         run: ls
       - name: deploy
-        run: echo "Deploying ..."         
+        run: echo "Deploying ..."
